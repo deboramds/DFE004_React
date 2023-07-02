@@ -1,4 +1,4 @@
-# Desafio Data
+# Desafio React
 
 ## Índice
 
@@ -30,27 +30,31 @@ O que deve ser feito:
 - Seletores de CSS.
 - Uso de seletores de DOM.
 - Gerenciamento de eventos de DOM.
+- React
+- Components
+- Hooks
+- Rotas
+
 
 ## Orientações:
 
-- O projeto será feito em grupo.
+- O projeto será feito individualmente.
 - O projeto deverá ser entregue subindo o seu código no GitHub (commit/push) em seguida o link do repositório deverá ser enviado na atividade na plataforma da Campinho Digital. 
 
 ## Critérios de aceitação
 
-- Os dados precisam ser exibidos por meio de uma interface gráfica. 
+- Usar React aplicando conceitos de componentização.
 
 
 
 #### Links utéis:
-[Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-[Adicionar JavaScript ao HTML](https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html)
-[JSON](https://www.google.com/search?q=o+que+%C3%A9+json&oq=O+QUE+%C3%89+JSON&aqs=chrome.0.69i59j0i512l6j69i60.1993j0j7&sourceid=chrome&ie=UTF-8)
 [Como trabalhar com JSON?](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
+[Componentização](https://blog.betrybe.com/tecnologia/componentizacao-tudo-sobre/)
+[Fetch API](https://www.freecodecamp.org/portuguese/news/fetch-api-como-fazer-solicitacoes-get-e-post-em-javascript/)
+[](https://legacy.reactjs.org/docs/hooks-effect.html)
 
 ## Dicas
 
-- Certifique-se de estar com a sua maquina configurada de acordo com as aulas vistas anteriormente.
-
-
+- https://www.youtube.com/watch?v=XqxUHVVO7-U
+  
 
