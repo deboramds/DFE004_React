@@ -15,11 +15,34 @@
 
 ## Resumo do projeto
 
+
+- Nesse projeto vamos utilizar o React é um dos frameworks e bibliotecas de JavaScript mais usados. O React permite que você crie uma interface de usuário que pode ser encontrada e acessada em diversos motores de busca.
+
+O React busca facilitar a conexão entre diferentes partes de uma página, portanto seu funcionamento acontece através do que chamamos de componentes.
+
+Em outras palavras, podemos imaginar que o React divide uma tela em diversos componentes para, então, trabalhar sobre eles de maneira individual. Os componentes são utilizados para reaproveitamento de código e padronização de interface.
+
+Isso torna o React uma tecnologia muito flexível para a solução de problemas e para a construção de interfaces reutilizáveis, uma vez que cada um destes componentes pode ser manipulado de maneira distinta.
+
+
 O que deve ser feito: 
 
-- Nesse projeto uma variedade de dados de temáticas diferentes para que você explore. Esses dados estão no formato `.json`  que é um arquivo que contém uma série de dados estruturados em formato texto e é utilizado para transferir informações entre sistemas. Escolha dentre os temas o que mais te agrade para trabalhar e exiba esses dados em uma interface gráfica de maneira organizada e estilizada. 
-  
+Nesse projeto, usaremos o React para implementar melhorias no projeto em que consumimos dados em formato JSON. Iremos consumir uma API,  que são um conjunto de padrões que fazem parte de uma interface. As APIs permitem a criação de plataformas de maneira mais simples e prática para desenvolvedores. 
 
+Por meio da [API The Movie Database - TMDB](https://developer.themoviedb.org/reference/intro/getting-started) você encontrará a lista definitiva dos métodos atualmente disponíveis de filme, tv, ator e imagem. 
+
+- Usar o React é obrigatorio para esse projeto, você pode criar o seu projeto com o `npx create-react-app nome-do-seu-app`
+  - https://pt-br.legacy.reactjs.org/docs/create-a-new-react-app.html
+    
+- Use o endpoint de [Filmes populares](https://www.themoviedb.org/movie?language=pt-BR), e a partir desses dados uma interface gráfica de maneira organizada e estilizada, como o exemplo abaixo: 
+
+<img width="1047" alt="Captura de Tela 2023-07-02 às 20 21 58" src="https://github.com/campinho-digital/DFE003_Data/assets/108235987/56a0dab9-f166-4176-bbed-d560083ef94f">
+
+- Utilize o método global fetch() que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
+    - https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch
+      
+- Utilize o setState, é o método de API fornecido com a biblioteca de modo que o usuário possa definir e manipular states com o passar do tempo.
+    - https://legacy.reactjs.org/docs/hooks-state.html
 
 ## Objetivos de aprendizagem
   
@@ -30,11 +53,6 @@ O que deve ser feito:
 - Seletores de CSS.
 - Uso de seletores de DOM.
 - Gerenciamento de eventos de DOM.
-- React
-- Components
-- Hooks
-- Rotas
-
 
 ## Orientações:
 
@@ -57,4 +75,3 @@ O que deve ser feito:
 
 - https://www.youtube.com/watch?v=XqxUHVVO7-U
   
-
