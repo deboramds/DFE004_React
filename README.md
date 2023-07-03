@@ -34,7 +34,9 @@ Por meio da [API The Movie Database - TMDB](https://developer.themoviedb.org/ref
 - Usar o React é obrigatorio para esse projeto, você pode criar o seu projeto com o `npx create-react-app nome-do-seu-app`
   - https://pt-br.legacy.reactjs.org/docs/create-a-new-react-app.html
     
-- Use o endpoint de [Filmes populares](https://www.themoviedb.org/movie?language=pt-BR), e a partir desses dados uma interface gráfica de maneira organizada e estilizada, como o exemplo abaixo: 
+- Use o endpoint de [Filmes populares](https://www.themoviedb.org/movie?language=pt-BR), e a partir desses dados uma interface gráfica de maneira organizada e estilizada, como o exemplo abaixo:
+
+- [Link da doc da API](https://developer.themoviedb.org/reference/intro/getting-started)
 
 <img width="1047" alt="Captura de Tela 2023-07-02 às 20 21 58" src="https://github.com/campinho-digital/DFE003_Data/assets/108235987/56a0dab9-f166-4176-bbed-d560083ef94f">
 
