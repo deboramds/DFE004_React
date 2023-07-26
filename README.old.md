@@ -25,57 +25,39 @@ Em outras palavras, podemos imaginar que o React divide uma tela em diversos com
 Isso torna o React uma tecnologia muito flexível para a solução de problemas e para a construção de interfaces reutilizáveis, uma vez que cada um destes componentes pode ser manipulado de maneira distinta.
 
 
-O que deve ser feito: 
+Catalogo de Filmes em React
+Este é um projeto em JavaScript que desenvolvi para criar um catálogo de filmes utilizando a biblioteca React e consumindo dados de uma API. O objetivo do projeto é permitir que os usuários visualizem uma lista de filmes e suas informações de forma fácil e intuitiva.
 
-Nesse projeto, usaremos o React para implementar melhorias no projeto em que consumimos dados em formato JSON. Iremos consumir uma API,  que são um conjunto de padrões que fazem parte de uma interface. As APIs permitem a criação de plataformas de maneira mais simples e prática para desenvolvedores. 
+Funcionalidades Implementadas
+Visualização de uma lista de filmes com seus respectivos posters e informações.
+Consumo de uma API para obter os dados dos filmes.
+Implementação de componentes reutilizáveis para a exibição dos filmes.
+Páginas para detalhes dos filmes e informações adicionais.
+Responsividade para melhor visualização em diferentes dispositivos.
+Próximas Implementações
+O projeto ainda está em desenvolvimento, e as próximas implementações incluem:
 
-Por meio da [API The Movie Database - TMDB](https://developer.themoviedb.org/reference/intro/getting-started) você encontrará a lista definitiva dos métodos atualmente disponíveis de filme, tv, ator e imagem. 
+Tela de Login: Implementar uma tela de login onde os usuários poderão se autenticar usando e-mail e senha ou conta do Google, usando o Firebase para a autenticação.
 
-- Usar o React é obrigatorio para esse projeto, você pode criar o seu projeto com o `npx create-react-app nome-do-seu-app`
-  - https://pt-br.legacy.reactjs.org/docs/create-a-new-react-app.html
-    
-- Use o endpoint de [Filmes populares](https://www.themoviedb.org/movie?language=pt-BR), e a partir desses dados uma interface gráfica de maneira organizada e estilizada, como o exemplo abaixo:
+Rotas com React: Criar rotas no aplicativo usando a biblioteca React Router para direcionar os usuários para as páginas corretas com base em suas ações.
 
-- [Link do ENDPOINT](https://developer.themoviedb.org/reference/discover-movie)
+Trailers de Filmes: Permitir que os usuários cliquem nos posters dos filmes para assistir aos trailers diretamente no aplicativo, oferecendo uma experiência mais completa de visualização dos filmes.
 
+Como Executar o Projeto
+Certifique-se de ter o Node.js instalado em sua máquina.
+Faça o clone do repositório e acesse a pasta do projeto.
+Instale as dependências do projeto usando o comando npm install.
+Execute o projeto com o comando npm start.
+O aplicativo estará disponível em http://localhost:3000.
+Tecnologias Utilizadas
+React
+JavaScript
+HTML5
+CSS3
+API de Filmes (URL da API)
+Contribuindo
+Sinta-se à vontade para contribuir com este projeto! Se você tiver alguma sugestão, correção de bugs ou melhorias, fique à vontade para enviar uma solicitação de pull.
 
-
-<img width="1047" alt="Captura de Tela 2023-07-02 às 20 21 58" src="https://github.com/campinho-digital/DFE003_Data/assets/108235987/56a0dab9-f166-4176-bbed-d560083ef94f">
-
-- Utilize o método global fetch() que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
-    - https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch
-      
-- Utilize o setState, é o método de API fornecido com a biblioteca de modo que o usuário possa definir e manipular states com o passar do tempo.
-    - https://legacy.reactjs.org/docs/hooks-state.html
-
-## Objetivos de aprendizagem
-  
-- Variáveis e constantes 
-- Uso de comandos de git: `git add` `git commit` `git pull` `git push`
-- Gerenciamento de repositorios de GitHub (clone e fork)
-- HTML semântico.
-- Seletores de CSS.
-- Uso de seletores de DOM.
-- Gerenciamento de eventos de DOM.
-
-## Orientações:
-
-- O projeto será feito individualmente.
-- O projeto deverá ser entregue subindo o seu código no GitHub (commit/push) em seguida o link do repositório deverá ser enviado na atividade na plataforma da Campinho Digital. 
-
-## Critérios de aceitação
-
-- Usar React aplicando conceitos de componentização.
-
-
-
-#### Links utéis:
-[Como trabalhar com JSON?](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
-[Componentização](https://blog.betrybe.com/tecnologia/componentizacao-tudo-sobre/)
-[Fetch API](https://www.freecodecamp.org/portuguese/news/fetch-api-como-fazer-solicitacoes-get-e-post-em-javascript/)
-[](https://legacy.reactjs.org/docs/hooks-effect.html)
-
-## Dicas
-
-- https://www.youtube.com/watch?v=XqxUHVVO7-U
+Licença
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para obter mais detalhes.
   
